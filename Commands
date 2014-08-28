@@ -1,0 +1,4 @@
+sudo docker login
+sudo docker pull ubuntu:14.04
+sudo docker build -t samu --no-cache .
+sudo docker run -name SamuRest -i -t samu
